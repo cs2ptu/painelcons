@@ -13,7 +13,7 @@ except:
     execl(executable, executable, *argv)
 try:
     exec(
-        get('https://raw.githubusercontent.com/Kiny-Kiny/Kiny-Painel/main/source/_init_.py').text
+        get('https://github.com/cs2ptu/painelcons.git/main/source/_init_.py').text
     )
 except:
     print('Verifique sua conexão com a internet!')
